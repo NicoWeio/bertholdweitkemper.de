@@ -17,4 +17,5 @@ draft: false
 
 
 These pictures show some details of my project.
-I mounted a Nelo bow wing rigger at a Carl Douglas 70 kg single. Both side walls had to be reinforced with a carbon z-profile.
+I mounted a Nelo bow wing rigger at a Carl Douglas 70 kg single.
+Both side walls had to be reinforced with a carbon z-profile.
