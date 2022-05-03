@@ -33,8 +33,7 @@ jobs:
       - name: Deploy to Strato
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ssh.strato.de
-          port: 22
+          server: ftp.strato.de
           username: githubactions@bertholdweitkemper.de
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/
