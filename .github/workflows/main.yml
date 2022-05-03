@@ -23,9 +23,18 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Deploy to Strato
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ssh.strato.de
+          port: 22
+          username: githubactions@bertholdweitkemper.de
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public/
