@@ -1,5 +1,5 @@
-# baseURL = 'https://bertholdweitkemper.de/'
-baseURL = 'https://nicoweio.github.io/bertholdweitkemper.de/'
+baseURL = 'https://bertholdweitkemper.de/'
+# baseURL = 'https://nicoweio.github.io/bertholdweitkemper.de/'
 languageCode = 'de-de'
 title = 'Berthold Weitkemper'
 theme = 'ananke'
